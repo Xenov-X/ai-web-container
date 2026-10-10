@@ -3,7 +3,7 @@
 Prebuilt container for [CloudCLI / Claude Code UI](https://github.com/siteboon/claudecodeui)
 with Claude Code and Codex bundled inside, so nothing is installed on the host.
 
-Built daily by GitHub Actions and published to `ghcr.io/<you>/cloudcli-docker`
+Built daily by GitHub Actions and published to `ghcr.io/xenov-x/ai-web-container`
 for amd64 and arm64.
 
 ## NAS setup

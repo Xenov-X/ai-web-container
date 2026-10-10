@@ -1,7 +1,7 @@
 # Copy this to the NAS (e.g. /volume1/docker/cloudcli) and create a Container Manager project from it.
 services:
   cloudcli:
-    image: ghcr.io/YOUR_GITHUB_USER/cloudcli-docker:latest
+    image: ghcr.io/xenov-x/ai-web-container:latest
     container_name: cloudcli
     restart: unless-stopped
     # user: "1026:100"   # optional: your DSM uid:gid so project files aren't root-owned

@@ -18,7 +18,7 @@ RUN npm install -g \
 # All state (logins, sessions, config) lives under /home/app, which is mounted from the NAS
 ENV HOME=/home/app \
     HOST=0.0.0.0 \
-    PORT=3001
+    SERVER_PORT=3001
 RUN mkdir -p /home/app/projects && chmod 777 /home/app /home/app/projects
 WORKDIR /home/app/projects
 
